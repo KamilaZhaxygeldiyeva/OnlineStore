@@ -9,6 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fc0b83ce-6660-4ae7-8799-a2381724d2d8" name="Changes" comment="start">
       <change afterPath="$PROJECT_DIR$/src/main/java/springMVC/config/MyProjectInitializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springMVC/config/ProjectConfig.java" afterDir="false" />
@@ -17,6 +18,20 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+=======
+    <list default="true" id="fc0b83ce-6660-4ae7-8799-a2381724d2d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springMVC/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+>>>>>>> 0c667efadea6280dc2258b85213d59531daccc86
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +44,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="AnnotationType" />
         <option value="HTML File" />
         <option value="Class" />
+=======
+        <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+>>>>>>> 0c667efadea6280dc2258b85213d59531daccc86
       </list>
     </option>
   </component>
@@ -61,6 +82,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
@@ -78,11 +100,29 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+>>>>>>> 0c667efadea6280dc2258b85213d59531daccc86
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="springMVC.controllers" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
@@ -175,6 +215,10 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.87" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.87" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+=======
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+>>>>>>> 0c667efadea6280dc2258b85213d59531daccc86
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="OnlineStore:war exploded">
@@ -261,6 +305,7 @@
         </option>
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -431,6 +476,8 @@
       <item itemvalue="Tomcat Server.Tomcat 9.0.73" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.7" />
     </list>
+=======
+>>>>>>> 0c667efadea6280dc2258b85213d59531daccc86
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -441,6 +488,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680183478613</updated>
       <workItem from="1680183479782" duration="6799000" />
+<<<<<<< HEAD
       <workItem from="1680203848677" duration="599000" />
       <workItem from="1680675215797" duration="5759000" />
       <workItem from="1680682175793" duration="1078000" />
@@ -483,11 +531,15 @@
       <updated>1680204252888</updated>
     </task>
     <option name="localTasksCounter" value="6" />
+=======
+    </task>
+>>>>>>> 0c667efadea6280dc2258b85213d59531daccc86
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -503,4 +555,6 @@
     <MESSAGE value="start" />
     <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
+=======
+>>>>>>> 0c667efadea6280dc2258b85213d59531daccc86
 </project>
