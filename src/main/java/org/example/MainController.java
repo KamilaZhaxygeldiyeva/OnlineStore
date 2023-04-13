@@ -1,4 +1,4 @@
-package springMVC.controllers;
+package org.example;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainController {
     @GetMapping("/")
     public String mainMessage(){
-        return "main.html";
+        return "main_page";
     }
 }
