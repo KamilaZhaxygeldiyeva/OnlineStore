@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Online Store</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>Welcome to...</h1>
+<a th:href="@{/shop}" alt="Start buying"><img th:src="@{/images/logo.png}" id="welcome"/></a>
+<a th:href="@{/index}" alt="Start buying"><img th:src="@{/images/logo.png}" id="welcome1"/></a>
+<form method="GET" th:action="@{/shop}">
+    <input type="submit" value="Start to buy" class="logout"/>
+</form>
+
+<th:block th:include="/_footer"></th:block>
+</body>
+</html>
