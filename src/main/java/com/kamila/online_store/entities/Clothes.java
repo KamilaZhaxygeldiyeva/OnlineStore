@@ -27,16 +27,32 @@ public class Clothes {
         XS, S, L, M
     }
     public enum Type {
-        Tops, Dresses, Bottoms, Shoes, Accessories, OuterWear
+        Tops("Tops"),
+        Dresses("Dresses"),
+        Bottoms("Bottoms"),
+        Shoes("Shoes"),
+        Accessories("Accessories"),
+        OuterWear("OuterWear");
+        private String desc;
+        Type(String desc){
+            this.desc = desc;
+
+        }
+        public  String getDesc(){
+            return this.desc;
+        }
     }
 
     public Clothes() {
     }
 
-    public Clothes(String name, double price, int inStock) {
+    public Clothes(String name, double price, int inStock, Type desc) {
         this.name = name;
         this.price = price;
         this.inStock = inStock;
+        //Type.desc = desc
+        this.types = desc;
+
 
     }
 

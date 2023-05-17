@@ -43,7 +43,24 @@ public class OnlineStoreApplication {
 				clothesRepo.save(kidcut);
 				//clothesRepo.save(bouncy);
 				//clothesRepo.save(earth);
-			}*/
+			}
+			//Clothes dress = new Clothes("dress", 65, 5, "Dresses" );
+			//Clothes dress1 = new Clothes("dress", 65, 5, Clothes.Type.Dresses);
+			//clothesRepo.save(dress1);
+			Clothes dresses = new Clothes("dresses", 1.1, 10, Clothes.Type.Dresses);
+			Clothes shoes = new Clothes("shoes", 0.75, 0, Clothes.Type.Shoes);
+			Clothes coat = new Clothes("coat", 0.8, 5, Clothes.Type.OuterWear);
+			Clothes tops = new Clothes("tops", 0.9, 59, Clothes.Type.Tops);
+			Clothes bottoms = new Clothes("bottoms", 0.95, 7, Clothes.Type.Bottoms);
+			Clothes bag = new Clothes("bag", 0.95, 7, Clothes.Type.Accessories);
+			clothesRepo.save(dresses);
+			clothesRepo.save(shoes);
+			clothesRepo.save(coat);
+			clothesRepo.save(tops);
+			clothesRepo.save(bottoms);
+			clothesRepo.save(bag);*/
+
+
 		};
 	}
 	public static void main(String[] args) {
